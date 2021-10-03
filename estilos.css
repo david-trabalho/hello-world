@@ -29,6 +29,7 @@ h1, h1 a {
   position: fixed;
   top: 2vh;
   left: 2vw;
+  z-index: 1;
 }
 .card {
  width: 100vw;
