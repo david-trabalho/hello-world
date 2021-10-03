@@ -1,0 +1,38 @@
+<svg version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .c1 {
+            fill: transparent;
+            stroke: rgb(104, 86, 184);
+            stroke-width: 5;
+            stroke-dasharray: 40;
+            stroke-dashoffset: 100;
+            stroke-linecap: round;
+            animation: rotateC 2s infinite 1s alternate;
+        }
+        .c2 {
+            fill: transparent;
+            stroke: rgb(80, 53, 199);
+            stroke-width: 2;
+            stroke-dasharray: 20;
+            stroke-dashoffset: 250;
+            stroke-linecap: round;
+            animation: rotateC 2s infinite alternate;
+        }
+
+        @keyframes rotateC {
+            0%{
+                stroke-dasharray: 260;
+                stroke-width: 1;
+            }
+            0%{
+                stroke-dasharray: 25;
+                stroke-width: 5;
+            }
+        }
+    </style>
+        <g>
+            <circle r="48" cx="50" cy="50" fill="rgb(125, 106, 209)"/>
+            <circle class="c1" r="45" cx="50" cy="50" />
+            <circle class="c2" r="45" cx="50" cy="50" />   
+        </g>
+</svg>

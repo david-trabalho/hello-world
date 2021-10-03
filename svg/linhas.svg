@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+
+viewBox="-1 -1 16.229 16.229" xmlns:v="https://vecta.io/nano">
+<style>
+.bola {
+    stroke: white;
+    stroke-opacity: 0;
+    stroke-dasharray:.1,111;
+    stroke-dashoffset:0;
+    stroke-width: 1.5;
+    filter: blur(.1px);
+    animation: example 6s linear 2s infinite alternate, alteraCorBola 12s linear 2s infinite;
+}
+@keyframes example {
+  0% {stroke-dashoffset:0;}
+  
+  100% {stroke-dashoffset:111;}
+}
+@keyframes alteraCorBola {
+  0%, 49% {stroke-opacity: 1; stroke: white;}
+  50%, 100% {stroke-opacity: 1; stroke: black;}
+}
+
+
+.linha {
+    stroke: #198f8f;
+    stroke-opacity: 0.7;
+    stroke-dasharray:111;
+    stroke-dashoffset:0;
+    animation: example2 6s linear 2s infinite alternate;
+}
+@keyframes example2 {
+  0% {stroke-dashoffset:0; stroke: #198f8f;}
+  50% {stroke: red;}
+  100% {stroke-dashoffset:111; stroke: blue;}
+}
+</style>
+<path class="linha" d="M.5.5h13.229L.5 5.792l13.229 5.292L.5 13.73h13.229L.5 11.084l13.229-5.292z" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+
+<path class="bola" d="M.5.5h13.229L.5 5.792l13.229 5.292L.5 13.73h13.229L.5 11.084l13.229-5.292z" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>
