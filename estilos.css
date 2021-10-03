@@ -24,7 +24,7 @@ body {
 }
 
 .card {
-  width: 440px;
+  width: 100vh;
 }
 
 .card__content {
