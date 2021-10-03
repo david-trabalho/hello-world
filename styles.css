@@ -1,0 +1,31 @@
+body {
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(42, 114, 42);
+  }
+h1 {
+    font-size: 3em;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container img {
+    max-width: 20vw;
+    min-width: 200px;
+    padding: 10px;
+}
+
+
+
