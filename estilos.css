@@ -23,7 +23,13 @@ body {
   font-family: 'Oswald', sans-serif;
   background-color: rgb(42, 114, 42);
 }
-
+h1, h1 a {
+  color: white;
+  text-decoration: none;
+  position: fixed;
+  top: 2vh;
+  left: 2vw;
+}
 .card {
  width: 100vw;
  max-width: 90vh;
