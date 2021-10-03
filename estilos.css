@@ -102,3 +102,12 @@ body {
   font-size: 2rem;
   background: linear-gradient(0deg, rgba(29,26,82,1) 0%, rgba(90,90,155,1) 30%, rgba(183,201,229,1) 100%);
 }
+.card__body__txt a {
+  color: rgb(42, 114, 42);
+  text-decoration: none;
+}
+
+.card__body__txt a:hover {
+  color: white;
+  text-decoration: underline;
+}
