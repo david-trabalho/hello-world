@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100">
+    <style>
+        :root { 
+            --tempo: 2s;
+            --rCirculo: 60%;
+            background-color:#116530;
+        }
+        circle {
+            fill: transparent;
+            stroke: #A3EBB1;
+            stroke-width: 2;
+            stroke-linecap: round;
+            transform: rotateX(70deg);
+            cx: 50;
+            cy: 200;
+            filter: blur(.2px);
+        }
+        .c1 { r: var(--rCirculo); animation: salta var(--tempo) infinite 2.2s alternate;}
+        .c2 { r: calc(var(--rCirculo) - 5%); animation: salta var(--tempo) infinite 2s alternate;}
+        .c3 { r: calc(var(--rCirculo) - 10%); animation: salta var(--tempo) infinite 1.8s alternate;}
+        .c4 { r: calc(var(--rCirculo) - 15%); animation: salta var(--tempo) infinite 1.6s alternate;}
+        .c5 { r: calc(var(--rCirculo) - 20%); animation: salta var(--tempo) infinite 1.4s alternate;}
+        .c6 { r: calc(var(--rCirculo) - 25%); animation: salta var(--tempo) infinite 1.2s alternate;}
+        .c7 { r: calc(var(--rCirculo) - 30%); animation: salta var(--tempo) infinite 1s alternate;}
+        .c8 { r: calc(var(--rCirculo) - 35%); animation: salta var(--tempo) infinite .8s alternate;}
+        .c9 { r: calc(var(--rCirculo) - 40%); animation: salta var(--tempo) infinite .6s alternate;}
+        .c10 { r: calc(var(--rCirculo) - 45%); animation: salta var(--tempo) infinite .4s alternate;}
+        .c11 { r: calc(var(--rCirculo) - 50%); animation: salta var(--tempo) infinite .2s alternate;}
+        .c12 { r: calc(var(--rCirculo) - 55%); animation: salta var(--tempo) infinite .01s alternate;}
+
+
+        @keyframes salta {
+            100%{
+                cy: 40;
+                stroke: #18A558;
+            }
+         }
+
+    </style>
+    <circle class="c1" />
+    <circle class="c2" />
+    <circle class="c3" />
+    <circle class="c4" />
+    <circle class="c5" />
+    <circle class="c6" />
+    <circle class="c7" />
+    <circle class="c8" />
+    <circle class="c9" />
+    <circle class="c10" />
+    <circle class="c11" />
+    <circle class="c12" />
+</svg>

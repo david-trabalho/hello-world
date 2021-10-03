@@ -1,0 +1,51 @@
+<svg version="1.1" viewBox="0 0 40 80" xmlns="http://www.w3.org/2000/svg">
+    <style>
+    svg {
+        background-color: #000;
+    }
+        path {
+            fill:none;
+            stroke: #000;
+            stroke-linecap:round;
+            stroke-linejoin: round;
+            stroke-width: 1;
+            
+            transform-origin: 42.4px;
+            transform: scaleX(0.4);
+        }
+        .t1 {
+            stroke: #72992C;
+            animation: escala 4s ease-in-out .01s infinite alternate;
+            
+        }
+        .t2 {
+            stroke: #2C9988;/*8EBD37;*/
+            filter: blur(1px);
+            animation: escala 4s ease-in-out .1s infinite alternate;
+        }
+        .t3 {
+            stroke: #fff; /*A2CD53 992C93*/
+            filter: blur(2px);
+            animation: escala 4s ease-in-out .2s infinite alternate;
+        }
+        @keyframes escala {
+            0%, 40%, 80% {
+                transform: scaleX(0.4);
+            }
+            20%, 60% {
+                transform: scaleX(0.5);
+            }
+            100% {
+                transform: scaleX(1);
+            }
+
+        }
+    </style>
+
+ <g transform="translate(-42.4 -10)">
+  <path class="t3" d="m42.8 16.7v61.6a1.29 1.29 0 0 0 2.17 0.931l30.3-28.8a2.93 2.93 0 0 0 0.051-4.19l-30.4-30.4a1.24 1.24 0 0 0-2.12 0.879z" />
+  <path class="t2" d="m42.8 16.7v61.6a1.29 1.29 0 0 0 2.17 0.931l30.3-28.8a2.93 2.93 0 0 0 0.051-4.19l-30.4-30.4a1.24 1.24 0 0 0-2.12 0.879z" />
+  <path class="t1" d="m42.8 16.7v61.6a1.29 1.29 0 0 0 2.17 0.931l30.3-28.8a2.93 2.93 0 0 0 0.051-4.19l-30.4-30.4a1.24 1.24 0 0 0-2.12 0.879z" />
+  
+ </g>
+</svg>
