@@ -117,7 +117,7 @@ h1, h1 a {
 
 .card__body__txt {
   font-size: 1.5rem;
-  text-align: left;
+  text-align: center;
 }
 .card__body__txt a {
   color: rgb(42, 114, 42);
