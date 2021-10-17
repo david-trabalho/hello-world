@@ -82,8 +82,9 @@ h1, h1 a {
   bottom: var(--spacer);
   left: var(--spacer);
   right: var(--spacer);
-  border: 3px solid currentColor;
+  border: 5px solid currentColor;
   transform: var(--level-one);
+  border-radius: var(--spacer);
 }
 
 .card__title {
