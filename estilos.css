@@ -21,7 +21,7 @@ body {
   display: grid;
   place-items: center;
   font-family: 'Oswald', sans-serif;
-  background-color: #daf1ed; /*rgb(42, 114, 42);*/
+  background-color: hsl(170, 60%, 30%); /*#daf1ed rgb(42, 114, 42);*/
 }
 h1, h1 a {
   color: white;
