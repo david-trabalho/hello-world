@@ -61,6 +61,7 @@ h1, h1 a {
   transform-style: preserve-3d;
   display: grid;
   align-content: center;
+  border-radius: 1em;
 }
 .card__back {
   padding: 1rem;
